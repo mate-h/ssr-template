@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "api/render.ts": {
+      "includeFiles": "dist/**"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "(.*)",
+      "destination": "api/server.ts"
+    }
+  ]
+}
